@@ -7,3 +7,6 @@
 [submodule "packages/array"]
 	path = packages/array
 	url = ./packages/array/
+[submodule "packages/math"]
+	path = packages/math
+	url = ./packages/math/
