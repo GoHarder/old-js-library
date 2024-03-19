@@ -1,0 +1,24 @@
+{
+  "name": "@vantage-js/object",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/main.js",
+  "types": "./dist/main.d.ts",
+  "files": [
+    "dist/*",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "pack": "pnpm pack --pack-destination ../../tarballs"
+  },
+  "dependencies": {
+    "@vantage-js/validate": "github:GoHarder/js-library#validate-main"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2",
+    "vite": "^5.1.6",
+    "vite-plugin-dts": "^3.7.3"
+  }
+}
