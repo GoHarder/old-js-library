@@ -16,3 +16,6 @@
 [submodule "packages/timing"]
 	path = packages/timing
 	url = ./packages/timing/
+[submodule "packages/time-loop"]
+	path = packages/time-loop
+	url = ./packages/time-loop/
