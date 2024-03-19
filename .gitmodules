@@ -4,3 +4,6 @@
 [submodule "packages/object"]
 	path = packages/object
 	url = ./packages/object/
+[submodule "packages/array"]
+	path = packages/array
+	url = ./packages/array/
