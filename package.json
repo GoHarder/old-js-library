@@ -1,0 +1,23 @@
+{
+  "name": "vantage-js",
+  "version": "1.0.0",
+  "description": "A mono repo of common JavaScript functions.",
+  "scripts": {
+    "build": "lerna run build",
+    "graph": "nx graph",
+    "pack": "lerna run pack",
+    "version": "lerna version --no-push --no-git-tag-version"
+  },
+  "author": "Gregory Harder",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "npmClient": "pnpm",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^8.1.2",
+    "nx": "^18.1.2"
+  }
+}
