@@ -1,3 +1,6 @@
 [submodule "packages/validate"]
 	path = packages/validate
 	url = ./packages/validate
+[submodule "packages/object"]
+	path = packages/object
+	url = ./packages/object/
